@@ -13,8 +13,8 @@ class App extends Component {
           style={{
             background: "#fef6f2",
             margin: "0",
-            paddingTop: "15%",
-            paddingBottom: "15%"
+            paddingTop: "18%",
+            paddingBottom: "20%"
           }}
           fluid
         >
@@ -28,7 +28,7 @@ class App extends Component {
               >
                 Beverly Osoria
               </h1>
-              <p>
+              <p style={{ fontSize: "150%" }}>
                 Hi! I'm a front-end focused Full Stack Developer.
                 <br />
                 Passionate about making a social impact in the ever-evolving

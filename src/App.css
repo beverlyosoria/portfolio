@@ -10,7 +10,7 @@ h1 {
   font-size: 70px;
 }
 p {
-  font-size: 150%;
+  font-size: 20px;
 }
 /* About section */
 .about {
@@ -18,8 +18,19 @@ p {
   padding-bottom: 15%;
 }
 .avatar-img {
-  height: 80%;
-  width: 80%;
+  float: center;
+  height: 360px;
+  width: 410px;
+  box-shadow: 10px 10px 0 #ffd0bd;
+}
+.circle {
+  float: left;
+  height: 450px;
+  width: 200px;
+  shape-outside: circle(50% at 0 50%);
+  shape-margin: 1rem;
+  clip-path: circle(50% at 0 50%);
+  background: linear-gradient(to top right, #fdb171, #fdaa93);
 }
 
 /* Learn More button */
