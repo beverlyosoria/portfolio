@@ -14,13 +14,14 @@ p {
 }
 /* About section */
 .about {
+  background: #f8f8f8;
   padding-top: 5%;
   padding-bottom: 15%;
 }
 .avatar-img {
   float: center;
   height: 360px;
-  width: 410px;
+  width: 450px;
   box-shadow: 10px 10px 0 #ffd0bd;
 }
 .circle {

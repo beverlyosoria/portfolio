@@ -35,17 +35,15 @@ class App extends Component {
                 Passionate about making a social impact in the ever-evolving
                 space of technology.
               </p>
-              <button class="learn-more">
-                <Link
-                  to="#about"
-                  style={{
-                    color: "inherit",
-                    textDecoration: "none"
-                  }}
-                >
-                  Learn More
-                </Link>
-              </button>
+              <Link
+                to="#about"
+                style={{
+                  color: "inherit",
+                  textDecoration: "none"
+                }}
+              >
+                <button class="learn-more">Learn More</button>
+              </Link>
             </Container>
           </Fade>
         </Jumbotron>
