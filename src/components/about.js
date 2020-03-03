@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Row, Col, Container, Image } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import avatar from "../../src/imgs/beverly.jpg";
 
 class About extends Component {
@@ -18,11 +18,11 @@ class About extends Component {
         </h1>
         <Container>
           <Row>
-            <Col sm={4}>
+            <Col lg={4} sm={12}>
               <Image src={avatar} alt="avatar" className="avatar-img" rounded />
             </Col>
 
-            <Col sm={8}>
+            <Col lg={8} sm={12}>
               <div className="circle"></div>
               <br />
               <p>
