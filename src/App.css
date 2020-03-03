@@ -6,15 +6,21 @@ html {
   background: #fef6f2;
 }
 h1 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 70px;
+}
+h2 {
+  font-family: "Rubik";
+  font-weight: 400;
+  color: #fdaa93;
 }
 p {
   font-size: 20px;
+  font-weight: 400;
 }
 /* About section */
 .about {
-  background: #f8f8f8;
+  background: #fffcf6;
   padding-top: 5%;
   padding-bottom: 15%;
 }
@@ -32,6 +38,16 @@ p {
   shape-margin: 1rem;
   clip-path: circle(50% at 0 50%);
   background: linear-gradient(to top right, #fdb171, #fdaa93);
+}
+/* Projects section */
+.projects {
+  background: #fffcf6;
+}
+.project-img {
+  float: right;
+  height: 345px;
+  width: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #ffd0bd;
 }
 
 /* Learn More button */

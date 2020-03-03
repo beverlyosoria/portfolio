@@ -5,6 +5,7 @@ import { HashLink as Link } from "react-router-hash-link";
 import "./App.css";
 
 import About from "./components/about";
+import Projects from "./components/projects";
 
 class App extends Component {
   render() {
@@ -48,6 +49,7 @@ class App extends Component {
           </Fade>
         </Jumbotron>
         <About />
+        <Projects />
       </div>
     );
   }
