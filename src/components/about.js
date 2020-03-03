@@ -5,7 +5,7 @@ import avatar from "../../src/imgs/beverly.jpg";
 class About extends Component {
   render() {
     return (
-      <div className="about">
+      <div className="about" id="about">
         <h1
           style={{
             fontWeight: "600",

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Jumbotron, Container } from "react-bootstrap";
 import Fade from "react-reveal/Fade";
+import { HashLink as Link } from "react-router-hash-link";
 import "./App.css";
 
 import About from "./components/about";
@@ -34,7 +35,17 @@ class App extends Component {
                 Passionate about making a social impact in the ever-evolving
                 space of technology.
               </p>
-              <button class="learn-more">Learn More</button>
+              <button class="learn-more">
+                <Link
+                  to="#about"
+                  style={{
+                    color: "inherit",
+                    textDecoration: "none"
+                  }}
+                >
+                  Learn More
+                </Link>
+              </button>
             </Container>
           </Fade>
         </Jumbotron>
