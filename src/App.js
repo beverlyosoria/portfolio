@@ -22,15 +22,10 @@ class App extends Component {
         >
           <Fade left duration={2000}>
             <Container>
-              <h1
-                style={{
-                  fontSize: "400%",
-                  fontWeight: "600"
-                }}
-              >
+              <h1 style={{ fontSize: "70px", fontWeight: "600" }}>
                 Beverly Osoria
               </h1>
-              <p style={{ fontSize: "150%" }}>
+              <p style={{ fontSize: "38px" }}>
                 Hi! I'm a front-end focused Full Stack Developer.
                 <br />
                 Passionate about making a social impact in the ever-evolving
@@ -43,7 +38,9 @@ class App extends Component {
                   textDecoration: "none"
                 }}
               >
-                <button class="learn-more">Learn More</button>
+                <button class="learn-more" style={{ fontSize: "20px" }}>
+                  Learn More
+                </button>
               </Link>
             </Container>
           </Fade>
