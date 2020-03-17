@@ -7,9 +7,9 @@ html {
 }
 
 h2 {
-  font-family: "Rubik";
-  font-weight: 400;
-  color: #fdaa93;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  color: #ba5229;
 }
 p {
   font-size: 20px;
@@ -37,13 +37,18 @@ p {
   background: linear-gradient(to top right, #fdb171, #fdaa93);
 }
 /* Projects section */
-.projects {
+.project-container {
   background: #fffcf6;
+}
+.project-row {
+  padding: 20px;
+  margin: 10px;
 }
 .project-img {
   float: right;
   height: 345px;
   width: 600px;
+  margin-top: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #ffd0bd;
 }
 /* Grow Shadow */
@@ -64,28 +69,30 @@ p {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+span {
+  display: block;
+}
 ul {
   list-style-type: none;
   display: inline;
-  background-color: #fdb171;
-  margin: 10px 5px 10px 0;
+  background-color: #b6c5d1;
+  line-height: 2.5;
+  margin: 0 5px 25px;
   padding: 7px 7px 5px;
 }
 button#project-button.learn-more {
   font-size: 14px;
-  height: 50px;
-  width: 120px;
   margin: 10px 20px 10px 5px;
-  padding: 0;
+  padding: 0.8em 1em;
 }
 a.project-link {
-  font-family: "Rubik";
+  font-family: "Rubik", sans-serif;
   font-weight: 600;
   font-size: 16px;
   color: #382422;
   text-decoration: none;
 }
-/* Sink */
+/* Sink effect*/
 .project-link:hover {
   color: #382422;
   text-decoration: none;
@@ -129,7 +136,7 @@ button.learn-more {
   font-weight: 600;
   color: #382422;
   text-transform: uppercase;
-  padding: 1.25em 2em;
+  padding: 1.25em 1.5em;
   background: #ffcbb7;
   border: 2px solid #ba5229;
   border-radius: 0.75em;
