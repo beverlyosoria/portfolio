@@ -7,7 +7,7 @@ import deafinitely from "../../src/imgs/deafinitely.jpg";
 class Projects extends Component {
   render() {
     return (
-      <div className="projects" id="projects">
+      <div className="project-container">
         <h1
           style={{
             fontWeight: "600",
@@ -20,7 +20,7 @@ class Projects extends Component {
         </h1>
         <Container>
           {/* Project 1 Guess That Movie */}
-          <Row>
+          <Row className="project-row">
             <Col lg={4} sm={12}>
               <h2>Guess That Movie</h2>
 
@@ -39,6 +39,7 @@ class Projects extends Component {
               <ul>MongoDb</ul>
               <ul>Mongoose</ul>
               <ul>Heroku</ul>
+              <br />
               {/* Live Heroku Link */}
               <Link
                 to="https://deafinitely-friendly.herokuapp.com/"
@@ -73,7 +74,7 @@ class Projects extends Component {
             </Col>
           </Row>
           {/* Project 2 Search It */}
-          <Row>
+          <Row className="project-row">
             <Col lg={4} sm={12}>
               <h2>Search It</h2>
 
@@ -92,6 +93,7 @@ class Projects extends Component {
               <ul>MongoDb</ul>
               <ul>Mongoose</ul>
               <ul>Heroku</ul>
+              <br />
               {/* Live Heroku Link */}
               <Link
                 to="https://deafinitely-friendly.herokuapp.com/"
@@ -126,7 +128,7 @@ class Projects extends Component {
             </Col>
           </Row>
           {/* Project 3 Happiest Hour */}
-          <Row>
+          <Row className="project-row">
             <Col lg={4} sm={12}>
               <h2>Happiest Hour</h2>
 
@@ -145,7 +147,8 @@ class Projects extends Component {
               <ul>MongoDb</ul>
               <ul>Mongoose</ul>
               <ul>Heroku</ul>
-
+              <br />
+              <br />
               {/* Github Repo Link */}
               <Link
                 className="project-link"
@@ -166,10 +169,9 @@ class Projects extends Component {
             </Col>
           </Row>
           {/* Project 4 Deafinitely Friendly */}
-          <Row>
+          <Row className="project-row">
             <Col lg={4} sm={12}>
               <h2>Deafinitely Friendly</h2>
-
               <p>
                 Deafinitely Friendly allows you to search for local businesses,
                 rate and post reviews based on the criteria of
@@ -180,11 +182,17 @@ class Projects extends Component {
               <ul>JavaScript</ul>
               <ul>React </ul>
               <ul>MDB React</ul>
-              <ul> Express </ul>
-              <ul>Node.js</ul>
-              <ul>MongoDb</ul>
-              <ul>Mongoose</ul>
-              <ul>Heroku</ul>
+              <span>
+                <ul> Express </ul>
+                <ul>Node.js</ul>
+                <ul>MongoDb</ul>
+              </span>
+              <span>
+                <ul>Mongoose</ul>
+
+                <ul>Heroku</ul>
+              </span>
+              <br />
               {/* Live Heroku Link */}
               <Link
                 to="https://deafinitely-friendly.herokuapp.com/"
