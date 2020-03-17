@@ -3,6 +3,7 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 import deafinitely from "../../src/imgs/deafinitely.jpg";
+import movie from "../../src/imgs/movie.jpg";
 
 class Projects extends Component {
   render() {
@@ -25,24 +26,19 @@ class Projects extends Component {
               <h2>Guess That Movie</h2>
 
               <p>
-                Deafinitely Friendly allows you to search for local businesses,
-                rate and post reviews based on the criteria of
-                deaf-friendliness. Sign up, Log in to leave a review or simply
-                browse reviews left by previous users.
+                A simple game in which the player is prompted with three images
+                that are symbolic of a movie. The user must guess the movie
+                title to move on to the next set of images. The player wins when
+                all movie titles are guessed correctly.
               </p>
 
               <ul>JavaScript</ul>
-              <ul>React </ul>
-              <ul>MDB React</ul>
-              <ul> Express </ul>
-              <ul>Node.js</ul>
-              <ul>MongoDb</ul>
-              <ul>Mongoose</ul>
-              <ul>Heroku</ul>
+              <ul>Sweet Alert</ul>
+              <ul>Surge.sh</ul>
               <br />
               {/* Live Heroku Link */}
               <Link
-                to="https://deafinitely-friendly.herokuapp.com/"
+                to="http://moviegame.surge.sh/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -57,7 +53,7 @@ class Projects extends Component {
               {/* Github Repo Link */}
               <Link
                 className="project-link"
-                to="https://github.com/beverlyosoria/deafinitely-friendly"
+                to="https://github.com/beverlyosoria/Guess-That-Movie"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -66,8 +62,8 @@ class Projects extends Component {
             </Col>
             <Col lg={8} sm={12}>
               <Image
-                src={deafinitely}
-                alt="deafinitely friendly"
+                src={movie}
+                alt="guess that movie"
                 className="project-img"
                 rounded
               />
@@ -189,7 +185,6 @@ class Projects extends Component {
               </span>
               <span>
                 <ul>Mongoose</ul>
-
                 <ul>Heroku</ul>
               </span>
               <br />
