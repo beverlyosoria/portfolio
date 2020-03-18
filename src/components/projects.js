@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import deafinitely from "../../src/imgs/deafinitely.jpg";
 import movie from "../../src/imgs/movie.jpg";
+import searchit from "../../src/imgs/searchit.jpg";
 
 class Projects extends Component {
   render() {
@@ -75,24 +76,25 @@ class Projects extends Component {
               <h2>Search It</h2>
 
               <p>
-                Deafinitely Friendly allows you to search for local businesses,
-                rate and post reviews based on the criteria of
-                deaf-friendliness. Sign up, Log in to leave a review or simply
-                browse reviews left by previous users.
+                Search it allows you search for a local business and share your
+                consumer experience as deaf or hard of hearing individuals. Sign
+                up and Log in to leave a review.
               </p>
-
-              <ul>JavaScript</ul>
-              <ul>React </ul>
-              <ul>MDB React</ul>
-              <ul> Express </ul>
-              <ul>Node.js</ul>
-              <ul>MongoDb</ul>
-              <ul>Mongoose</ul>
-              <ul>Heroku</ul>
+              <span>
+                <ul>JavaScript</ul>
+                <ul> Express </ul>
+                <ul>Node.js</ul>
+              </span>
+              <span>
+                <ul>MongoDb</ul>
+                <ul>Mongoose</ul>
+                <ul>Materialize</ul>
+                <ul>Heroku</ul>
+              </span>
               <br />
               {/* Live Heroku Link */}
               <Link
-                to="https://deafinitely-friendly.herokuapp.com/"
+                to="https://deaf-friendly.herokuapp.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -107,7 +109,7 @@ class Projects extends Component {
               {/* Github Repo Link */}
               <Link
                 className="project-link"
-                to="https://github.com/beverlyosoria/deafinitely-friendly"
+                to="https://github.com/beverlyosoria/deaf-friendly"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -116,8 +118,8 @@ class Projects extends Component {
             </Col>
             <Col lg={8} sm={12}>
               <Image
-                src={deafinitely}
-                alt="deafinitely friendly"
+                src={searchit}
+                alt="search it"
                 className="project-img"
                 rounded
               />
@@ -129,10 +131,10 @@ class Projects extends Component {
               <h2>Happiest Hour</h2>
 
               <p>
-                Deafinitely Friendly allows you to search for local businesses,
+                Deafinitely Friendly allows you to search for a local business,
                 rate and post reviews based on the criteria of
-                deaf-friendliness. Sign up, Log in to leave a review or simply
-                browse reviews left by previous users.
+                deaf-friendliness. Sign up and Log in to leave a review or
+                simply browse reviews left by previous users.
               </p>
 
               <ul>JavaScript</ul>
