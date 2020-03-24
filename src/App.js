@@ -6,6 +6,7 @@ import "./App.css";
 
 import About from "./components/about";
 import Projects from "./components/projects";
+import Contact from "./components/contact";
 
 class App extends Component {
   render() {
@@ -47,6 +48,7 @@ class App extends Component {
         </Jumbotron>
         <About />
         <Projects />
+        <Contact />
       </div>
     );
   }

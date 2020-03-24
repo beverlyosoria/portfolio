@@ -112,6 +112,12 @@ a.project-link {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+/*  Contact Page */
+.contact-container {
+  background: #fef6f2;
+  padding-top: 5%;
+  padding-bottom: 15%;
+}
 
 /* Learn More button */
 * {
