@@ -26,17 +26,18 @@ class About extends Component {
               <div className="circle"></div>
               <br />
               <p>
-                I enjoy creating.
+                I have worked throughout the stack but especially love working
+                with ReactJS.
                 <br />
-                I became interested in coding after taking a web design class in
-                college and discovered my love for designing and building
-                full-stack web applications.
+                Outside of code, I like to create in other ways. From
+                photography to painting, I'm always looking for new ways to
+                express myself.
                 <br />
-                My education in mass communication and experience with software
-                engineering has given me insight into the intersection of mass
-                media and technology. I feel strongly that code is an important
-                way to convey information and can be used as a tool to inform,
-                educate, and promote social change.
+                My education and experience with software engineering has made
+                me particularly interested in the intersection of mass media and
+                technology. I feel strongly that code is an important way to
+                convey information and can be used as a tool to inform, educate,
+                and promote social change.
                 <br />I want to enable technology for the good and help create
                 solutions for the overlooked and underserved communities.
               </p>
