@@ -32,7 +32,7 @@ p {
   height: 450px;
   width: 200px;
   shape-outside: circle(50% at 0 50%);
-  shape-margin: 1rem;
+  shape-margin: 1.5rem;
   clip-path: circle(50% at 0 50%);
   background: linear-gradient(to top right, #fdb171, #fdaa93);
 }
@@ -117,6 +117,11 @@ a.project-link {
   background: #fef6f2;
   padding-top: 5%;
   padding-bottom: 15%;
+}
+button#contact-btn {
+  align-content: center;
+  text-align: center;
+  align-self: center;
 }
 
 /* Learn More button */
