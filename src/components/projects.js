@@ -55,13 +55,10 @@ class Projects extends Component {
               </Link>
               {/* Github Repo Link */}
               <Link
+                className="project-link"
                 to="https://github.com/beverlyosoria/deafinitely-friendly"
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{
-                  color: "inherit",
-                  textDecoration: "none"
-                }}
               >
                 Source Code
               </Link>
