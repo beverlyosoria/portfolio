@@ -2,9 +2,10 @@ import React, { Component } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import deafinitely from "../../src/imgs/deafinitely.jpg";
 import movie from "../../src/imgs/movie.jpg";
 import searchit from "../../src/imgs/searchit.jpg";
+import happiest from "../../src/imgs/happiest.jpg";
+import deafinitely from "../../src/imgs/deafinitely.jpg";
 
 class Projects extends Component {
   render() {
@@ -130,27 +131,25 @@ class Projects extends Component {
             <Col lg={4} sm={12}>
               <h2>Happiest Hour</h2>
 
+              <p>A collaborative project as Front-end Developer.</p>
               <p>
-                Deafinitely Friendly allows you to search for a local business,
-                rate and post reviews based on the criteria of
-                deaf-friendliness. Sign up and Log in to leave a review or
-                simply browse reviews left by previous users.
+                Happiest Hour simplifies organizing a happy hour with your
+                coworkers, planning a weekend with your friends, or coordinating
+                a soccer practice with your teammates all in one place. Through
+                the app, the user can suggest a place, set a time and location
+                and share privately with a group of choice.
               </p>
 
-              <ul>JavaScript</ul>
-              <ul>React </ul>
-              <ul>MDB React</ul>
-              <ul> Express </ul>
-              <ul>Node.js</ul>
-              <ul>MongoDb</ul>
-              <ul>Mongoose</ul>
+              <ul>Python</ul>
+              <ul>Django</ul>
+              <ul>Bootstrap</ul>
               <ul>Heroku</ul>
               <br />
               <br />
               {/* Github Repo Link */}
               <Link
                 className="project-link"
-                to="https://github.com/beverlyosoria/deafinitely-friendly"
+                to="https://github.com/beverlyosoria/happiest-hour"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -159,8 +158,8 @@ class Projects extends Component {
             </Col>
             <Col lg={8} sm={12}>
               <Image
-                src={deafinitely}
-                alt="deafinitely friendly"
+                src={happiest}
+                alt="happiest hour"
                 className="project-img"
                 rounded
               />
