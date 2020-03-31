@@ -118,10 +118,48 @@ a.project-link {
   padding-top: 5%;
   padding-bottom: 15%;
 }
-button#contact-btn {
-  align-content: center;
-  text-align: center;
-  align-self: center;
+div.circle-form {
+  display: block;
+  margin: auto;
+  padding-top: 70px;
+  background: linear-gradient(to top right, #ffcbb7, #fdb171);
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+}
+button#submit-button.learn-more {
+  display: block;
+  margin: auto;
+  font-size: 14px;
+  padding: 0.8em 1em;
+}
+a.contact-link {
+  font-weight: 600;
+  color: #779ecb;
+  text-decoration: none;
+}
+/* Contact Grow effect*/
+.contact-link:hover {
+  color: #779ecb;
+  text-decoration: none;
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.contact-link:hover,
+.contact-link:focus,
+.contact-link:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
 }
 
 /* Learn More button */
