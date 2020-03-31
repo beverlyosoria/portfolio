@@ -44,72 +44,78 @@ class Contact extends Component {
         <Container>
           <Row>
             <Col md={{ span: 6, offset: 3 }}>
-              <p style={{ textAlign: "center" }}>
+              <p style={{ textAlign: "center", marginBottom: "10%" }}>
                 Feel free to get in touch anytime
               </p>
             </Col>
           </Row>
-          <br />
-          <br />
-          <br />
-          <Form onSubmit={this.handleSubmit}>
-            <Form.Row>
-              <Form.Group as={Col} controlId="formGridEmail">
-                <Col md={{ span: 6, offset: 3 }}>
-                  <Form.Label>Your Name: </Form.Label>
-                  <Form.Control
-                    type="text"
-                    name="name"
-                    placeholder="Name"
-                    value={name}
-                    onChange={this.handleChange}
-                  />
-                </Col>
-              </Form.Group>
-            </Form.Row>
-            <Form.Row>
-              <Form.Group as={Col} controlId="formGridEmail">
-                <Col md={{ span: 6, offset: 3 }}>
-                  <Form.Label>Your Email: </Form.Label>
-                  <Form.Control
-                    type="email"
-                    name="email"
-                    placeholder="Enter email"
-                    value={email}
-                    onChange={this.handleChange}
-                  />
-                </Col>
-              </Form.Group>
-            </Form.Row>
 
-            <Form.Row>
-              <Form.Group as={Col} controlId="formGridEmail">
-                <Col md={{ span: 6, offset: 3 }}>
-                  <Form.Label>Message: </Form.Label>
-                  <Form.Control
-                    as="textarea"
-                    rows="3"
-                    name="message"
-                    value={message}
-                    onChange={this.handleChange}
-                  />
-                </Col>
-              </Form.Group>
-            </Form.Row>
-            <Form.Row>
-              <Form.Group as={Col} controlId="formGridEmail">
-                <Col md={{ span: 6, offset: 3 }}>
-                  <button id="contact-btn" type="submit">
-                    Send
-                  </button>
-                </Col>
-              </Form.Group>
-            </Form.Row>
-          </Form>
+          <div className="circle-form">
+            <Form onSubmit={this.handleSubmit}>
+              <Form.Row>
+                <Form.Group as={Col} controlId="formGridEmail">
+                  <Col md={{ span: 6, offset: 3 }}>
+                    <Form.Label>Your Name: </Form.Label>
+                    <Form.Control
+                      type="text"
+                      name="name"
+                      placeholder="Name"
+                      value={name}
+                      onChange={this.handleChange}
+                    />
+                  </Col>
+                </Form.Group>
+              </Form.Row>
+              <Form.Row>
+                <Form.Group as={Col} controlId="formGridEmail">
+                  <Col md={{ span: 6, offset: 3 }}>
+                    <Form.Label>Your Email: </Form.Label>
+                    <Form.Control
+                      type="email"
+                      name="email"
+                      placeholder="Enter email"
+                      value={email}
+                      onChange={this.handleChange}
+                    />
+                  </Col>
+                </Form.Group>
+              </Form.Row>
+
+              <Form.Row>
+                <Form.Group as={Col} controlId="formGridEmail">
+                  <Col md={{ span: 6, offset: 3 }}>
+                    <Form.Label>Message: </Form.Label>
+                    <Form.Control
+                      as="textarea"
+                      rows="3"
+                      name="message"
+                      value={message}
+                      onChange={this.handleChange}
+                    />
+                  </Col>
+                </Form.Group>
+              </Form.Row>
+              <Form.Row>
+                <Form.Group as={Col} controlId="formGridEmail">
+                  <Col md={{ span: 6, offset: 3 }}>
+                    <button
+                      id="submit-button"
+                      className="learn-more"
+                      type="submit"
+                    >
+                      Send
+                    </button>
+                  </Col>
+                </Form.Group>
+              </Form.Row>
+            </Form>
+          </div>
+
           <Col md={{ span: 6, offset: 3 }}>
-            <p style={{ textAlign: "center" }}>
+            <p style={{ textAlign: "center", marginTop: "10%" }}>
               Or, just email me directly at &nbsp;
               <a
+                className="contact-link"
                 href="mailto:bevosoria@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
