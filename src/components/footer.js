@@ -24,6 +24,7 @@ class Footer extends Component {
           </a>
         </p>
         <hr></hr>
+        <br />
         <Row>
           <Col md={{ span: 6, offset: 3 }}>©2020 BEVERLY OSORIA </Col>
         </Row>

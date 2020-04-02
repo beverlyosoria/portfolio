@@ -32,7 +32,7 @@ class Contact extends Component {
     const { name, email, message } = this.state;
     return (
       <div className="contact-container">
-        <Fade bottom duration={3000}>
+        <Fade bottom duration={2000}>
           <h1
             style={{
               fontWeight: "600",
