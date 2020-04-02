@@ -208,6 +208,8 @@ a.footer-link:hover {
   color: #766563;
 }
 hr {
+  color: #382422;
+  margin: 5px 0 5px 0;
   width: 70%;
   margin: auto;
 }
