@@ -36,7 +36,9 @@ p {
   clip-path: circle(50% at 0 50%);
   background: linear-gradient(to top right, #fdb171, #fdaa93);
 }
-/* Projects section */
+/* End of About */
+
+/* Projects */
 .project-container {
   background: #fffcf6;
 }
@@ -51,7 +53,7 @@ p {
   margin-top: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #ffd0bd;
 }
-/* Grow Shadow */
+/* Project image Grow Shadow */
 .project-img:hover {
   display: inline-block;
   vertical-align: middle;
@@ -92,7 +94,7 @@ a.project-link {
   color: #382422;
   text-decoration: none;
 }
-/* Sink effect*/
+/* Project link sink effect*/
 .project-link:hover {
   color: #382422;
   text-decoration: none;
@@ -112,6 +114,8 @@ a.project-link {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+/* End of Projects */
+
 /*  Contact Page */
 .contact-container {
   background: #fef6f2;
@@ -138,11 +142,10 @@ a.contact-link {
   color: #779ecb;
   text-decoration: none;
 }
-/* Contact Grow effect*/
+/* Contact link float effect*/
 .contact-link:hover {
   color: #779ecb;
   text-decoration: none;
-
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -160,6 +163,26 @@ a.contact-link {
 .contact-link:active {
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
+}
+/* End of Contact */
+
+/* Footer */
+.footer-container {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  background: #b0c4de;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 30px;
+}
+a.footer-link {
+  color: #382422;
+  font-size: 50px;
+  margin: 10px;
+}
+a.footer-link:hover {
+  color: #766563;
 }
 
 /* Learn More button */
