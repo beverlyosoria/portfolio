@@ -22,8 +22,8 @@ class App extends Component {
           }}
           fluid
         >
-          <Fade left duration={2000}>
-            <Container>
+          <Container>
+            <Fade left duration={3000}>
               <h1 style={{ fontSize: "70px", fontWeight: "600" }}>
                 Beverly Osoria
               </h1>
@@ -33,6 +33,7 @@ class App extends Component {
                 Passionate about making a social impact in the ever-evolving
                 space of technology.
               </p>
+
               <Link
                 to="#about"
                 style={{
@@ -44,8 +45,8 @@ class App extends Component {
                   Learn More
                 </button>
               </Link>
-            </Container>
-          </Fade>
+            </Fade>
+          </Container>
         </Jumbotron>
         <About />
         <Projects />

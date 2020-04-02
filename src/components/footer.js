@@ -23,6 +23,7 @@ class Footer extends Component {
             <i class="fa fa-linkedin-square" aria-hidden="true" />
           </a>
         </p>
+        <hr></hr>
         <Row>
           <Col md={{ span: 6, offset: 3 }}>©2020 BEVERLY OSORIA </Col>
         </Row>
