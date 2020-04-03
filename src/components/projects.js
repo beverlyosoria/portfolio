@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 import movie from "../../src/imgs/movie.jpg";
 import searchit from "../../src/imgs/searchit.jpg";
@@ -39,8 +38,8 @@ class Projects extends Component {
               <ul>Surge.sh</ul>
               <br />
               {/* Live Heroku Link */}
-              <Link
-                to="http://moviegame.surge.sh/"
+              <a
+                href="http://moviegame.surge.sh/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -51,16 +50,16 @@ class Projects extends Component {
                 <button id="project-button" className="learn-more">
                   See Live
                 </button>
-              </Link>
+              </a>
               {/* Github Repo Link */}
-              <Link
+              <a
                 className="project-link"
-                to="https://github.com/beverlyosoria/Guess-That-Movie"
+                href="https://github.com/beverlyosoria/Guess-That-Movie"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Source Code
-              </Link>
+              </a>
             </Col>
             <Col lg={8} sm={12}>
               <Image
@@ -94,8 +93,8 @@ class Projects extends Component {
               </span>
               <br />
               {/* Live Heroku Link */}
-              <Link
-                to="https://deaf-friendly.herokuapp.com"
+              <a
+                href="https://deaf-friendly.herokuapp.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -106,16 +105,16 @@ class Projects extends Component {
                 <button id="project-button" className="learn-more">
                   See Live
                 </button>
-              </Link>
+              </a>
               {/* Github Repo Link */}
-              <Link
+              <a
                 className="project-link"
-                to="https://github.com/beverlyosoria/deaf-friendly"
+                href="https://github.com/beverlyosoria/deaf-friendly"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Source Code
-              </Link>
+              </a>
             </Col>
             <Col lg={8} sm={12}>
               <Image
@@ -147,14 +146,14 @@ class Projects extends Component {
               <br />
               <br />
               {/* Github Repo Link */}
-              <Link
+              <a
                 className="project-link"
-                to="https://github.com/beverlyosoria/happiest-hour"
+                href="https://github.com/beverlyosoria/happiest-hour"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Source Code
-              </Link>
+              </a>
             </Col>
             <Col lg={8} sm={12}>
               <Image
@@ -190,8 +189,8 @@ class Projects extends Component {
               </span>
               <br />
               {/* Live Heroku Link */}
-              <Link
-                to="https://deafinitely-friendly.herokuapp.com/"
+              <a
+                href="https://deafinitely-friendly.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -202,16 +201,16 @@ class Projects extends Component {
                 <button id="project-button" className="learn-more">
                   See Live
                 </button>
-              </Link>
+              </a>
               {/* Github Repo Link */}
-              <Link
+              <a
                 className="project-link"
-                to="https://github.com/beverlyosoria/deafinitely-friendly"
+                href="https://github.com/beverlyosoria/deafinitely-friendly"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Source Code
-              </Link>
+              </a>
             </Col>
             <Col lg={8} sm={12}>
               <Image
