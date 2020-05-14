@@ -2,9 +2,14 @@ import React, { Component } from "react";
 import { Container, Row, Col, Form } from "react-bootstrap";
 import Fade from "react-reveal/Fade";
 
-const encode = data => {
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+
+const MySwal = withReactContent(Swal);
+
+const encode = (data) => {
   return Object.keys(data)
-    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
     .join("&");
 };
 
@@ -14,22 +19,30 @@ class Contact extends Component {
     this.state = { name: "", email: "", message: "" };
   }
 
-  handleSubmit = e => {
+  handleSubmit = (e) => {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...this.state })
+      body: encode({ "form-name": "contact", ...this.state }),
     })
       .then(() => {
-        alert("Success!");
+        MySwal.fire({
+          icon: "success",
+          title: "Sweet!",
+          text: "Your message has been sent. ",
+          showConfirmButton: false,
+          timer: 2000,
+          timerProgressBar: true,
+          background: "#fff7e8",
+        });
         this.setState({ name: "", email: "", message: "" });
       })
-      .catch(error => alert(error));
+      .catch((error) => alert(error));
 
     e.preventDefault();
   };
 
-  handleChange = e => this.setState({ [e.target.name]: e.target.value });
+  handleChange = (e) => this.setState({ [e.target.name]: e.target.value });
 
   render() {
     const { name, email, message } = this.state;
@@ -41,7 +54,7 @@ class Contact extends Component {
               fontWeight: "600",
               fontSize: "60px",
               textAlign: "center",
-              marginBottom: "3%"
+              marginBottom: "3%",
             }}
           >
             Contact Me
