@@ -29,7 +29,7 @@ class Contact extends Component {
         MySwal.fire({
           icon: "success",
           title: "Sweet!",
-          text: "Your message has been sent.     ",
+          text: "Your message has been sent.",
           showConfirmButton: false,
           timer: 2300,
           timerProgressBar: true,
@@ -92,6 +92,7 @@ class Contact extends Component {
                         type="email"
                         name="email"
                         placeholder="Enter email"
+                        required
                         value={email}
                         onChange={this.handleChange}
                       />
