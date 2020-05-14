@@ -29,11 +29,11 @@ class Contact extends Component {
         MySwal.fire({
           icon: "success",
           title: "Sweet!",
-          text: "Your message has been sent. ",
+          text: "Your message has been sent.     ",
           showConfirmButton: false,
-          timer: 2000,
+          timer: 2300,
           timerProgressBar: true,
-          background: "#fff7e8",
+          background: "#fcefe8",
         });
         this.setState({ name: "", email: "", message: "" });
       })
